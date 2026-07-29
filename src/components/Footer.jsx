@@ -59,11 +59,10 @@ function Footer() {
         <div className="mb-16 text-center">
 
           <h2 className="text-4xl font-bold tracking-tight">
-            Vi kan besvare dine spørgsmål
+            Har du spørgsmål til dit næste projekt?
           </h2>
 
           <p className="mx-auto mt-5 w-full text-lg leading-8 text-gray-300">
-            Har du spørgsmål til dit næste projekt?
             Vi står klar til at hjælpe med rådgivning,
             tilbud og løsninger, der passer til dine behov.
           </p>
@@ -190,7 +189,7 @@ function Footer() {
 
 
               <a
-                href="mailto:info@firma.dk"
+                href="nikolaj@hojagertoemrerfirma.dk"
                 className="flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
               >
 
@@ -205,8 +204,8 @@ function Footer() {
                     Skriv til os
                   </p>
 
-                  <p className="font-semibold">
-                    hojagertoemrerfirma.dk
+                  <p className="text-xs font-semibold">
+                    nikolaj@hojagertoemrerfirma.dk
                   </p>
 
                 </div>

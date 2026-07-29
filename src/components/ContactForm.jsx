@@ -88,10 +88,10 @@ function ContactForm() {
                 <div>
                   <p className="font-semibold">Email</p>
                   <a
-                    href="mailto:hoejagertoemrerfirma.dk"
+                    href="mailto:nikolaj@hojagertoemrerfirma.dk"
                     className="text-gray-300 hover:text-white"
                   >
-                    hoejagertoemrerfirma.dk
+                    nikolaj@hojagertoemrerfirma.dk
                   </a>
                 </div>
               </div>

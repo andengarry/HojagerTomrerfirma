@@ -65,6 +65,7 @@ export default function ContactInfo({ phone, email }) {
                     items-center
                     gap-2
 
+                    text-xs
                     text-gray-600
 
                     transition-colors
