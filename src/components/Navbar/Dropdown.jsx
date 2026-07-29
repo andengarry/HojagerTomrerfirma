@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { NavLink } from "react-router-dom";
 
 export default function Dropdown({ title, items }) {
     const [open, setOpen] = useState(false);
@@ -163,9 +164,9 @@ export default function Dropdown({ title, items }) {
 
                     {items.map((item) => (
 
-                        <a
+                        <NavLink
                             key={item.href}
-                            href={item.href}
+                            to={item.href}
                             className="
                                 block
                                 px-5
@@ -181,7 +182,7 @@ export default function Dropdown({ title, items }) {
                             "
                         >
                             {item.label}
-                        </a>
+                        </NavLink>
 
                     ))}
 

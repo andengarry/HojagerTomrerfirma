@@ -13,20 +13,24 @@ const navConfig = [
 
         items: [
             {
-                label: "Indendørs maling",
-                href: "/services/indendors-maling",
+                type: "link",
+                label: "Køkkenopsætning",
+                href: "/services/køkkenopsætning",
             },
             {
-                label: "Udendørs maling",
-                href: "/services/udendors-maling",
+                type: "link",
+                label: "Døre og vinduer",
+                href: "/services/døre-og-vinduer",
             },
             {
-                label: "Spartling",
-                href: "/services/spartling",
+                type: "link",
+                label: "Tagrenovering",
+                href: "/services/tagrenovering",
             },
             {
-                label: "Tapetsering",
-                href: "/services/tapetsering",
+                type: "link",
+                label: "Nybygning og tilbygning",
+                href: "/services/nybygning-og-tilbygning",
             },
         ],
     },
