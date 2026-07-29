@@ -3,6 +3,8 @@ import { useState } from 'react'
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import ContactForm from "../components/ContactForm";
+import hero from "../assets/hero.png";
+
 
 function Home() {
   const [count, setCount] = useState(0)
@@ -12,7 +14,7 @@ function Home() {
       <Hero 
         title="Kvalitetshåndværk i hele Midtjylland"
         subtitle="Køkkenopsætning, døre, vinduer, tag og nybyg – udført med mange års erfaring og fokus på detaljen."
-        image="/images/hero.png"
+        image={hero}
       />
       <AboutSection />
 

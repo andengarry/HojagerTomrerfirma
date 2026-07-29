@@ -1,3 +1,5 @@
+import logo from "../../assets/logo.png";
+
 export default function Logo() {
     return (
         <a
@@ -14,7 +16,7 @@ export default function Logo() {
         >
 
             <img
-                src="/images/logo.png"
+                src={logo}
                 alt="Virksomhedens logo"
                 className="
                     h-14
