@@ -11,7 +11,7 @@ function AboutSection() {
                         Hvem er vi?
                     </h2>
 
-                    <p className="mt-6 max-w-xl text-lg leading-relaxed text-gray-700">
+                    <p className="mt-6 w-full text-lg leading-relaxed text-gray-700">
                         Vi er et lokalt tømrerfirma med fokus på kvalitet,
                         godt håndværk og tilfredse kunder. 
                         Vi hjælper både private og virksomheder med

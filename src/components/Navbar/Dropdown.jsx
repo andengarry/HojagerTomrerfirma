@@ -74,7 +74,7 @@ export default function Dropdown({ title, items }) {
                     text-gray-700
                     transition
                     duration-200
-                    hover:text-blue-600
+                    hover:text-amber-700
                 "
             >
 
@@ -177,7 +177,7 @@ export default function Dropdown({ title, items }) {
                                 transition
 
                                 hover:bg-gray-50
-                                hover:text-blue-600
+                                hover:text-amber-700
                             "
                         >
                             {item.label}

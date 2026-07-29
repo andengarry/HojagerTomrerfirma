@@ -62,7 +62,7 @@ function Footer() {
             Vi kan besvare dine spørgsmål
           </h2>
 
-          <p className="mx-auto mt-5 max-w-2xl text-lg leading-8 text-gray-300">
+          <p className="mx-auto mt-5 w-full text-lg leading-8 text-gray-300">
             Har du spørgsmål til dit næste projekt?
             Vi står klar til at hjælpe med rådgivning,
             tilbud og løsninger, der passer til dine behov.

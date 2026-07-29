@@ -26,7 +26,7 @@ export default function ContactInfo({ phone, email }) {
                     transition-colors
                     duration-200
 
-                    hover:text-blue-600
+                    hover:text-amber-700
                 "
             >
 
@@ -38,7 +38,7 @@ export default function ContactInfo({ phone, email }) {
                         text-gray-500
 
                         transition-colors
-                        group-hover:text-blue-600
+                        group-hover:text-amber-700
                     "
                     fill="currentColor"
                     viewBox="0 0 20 20"
@@ -70,7 +70,7 @@ export default function ContactInfo({ phone, email }) {
                     transition-colors
                     duration-200
 
-                    hover:text-blue-600
+                    hover:text-amber-700
                 "
             >
 
@@ -82,7 +82,7 @@ export default function ContactInfo({ phone, email }) {
                         text-gray-500
 
                         transition-colors
-                        group-hover:text-blue-600
+                        group-hover:text-amber-700
                     "
                     fill="currentColor"
                     viewBox="0 0 20 20"

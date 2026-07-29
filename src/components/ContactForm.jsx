@@ -46,9 +46,9 @@ function ContactForm() {
             Kontakt os
           </h2>
 
-          <p className="mx-auto mt-5 max-w-3xl text-lg leading-8 text-gray-600">
-            Skal vi hjælpe med dit næste projekt? Kontakt os for en
-            uforpligtende snak eller et gratis tilbud.
+          <p className="mx-auto mt-5 w-full text-lg leading-8 text-gray-600">
+            Skal vi hjælpe med dit næste projekt? <br />
+            Kontakt os for en uforpligtende snak eller et gratis tilbud.
           </p>
         </div>
 

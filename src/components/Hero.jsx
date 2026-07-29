@@ -114,7 +114,7 @@ export default function Hero({ title, subtitle, image }) {
 
                         rounded-lg
 
-                        bg-blue-600
+                        bg-amber-600
 
                         px-8
                         py-4
@@ -129,7 +129,7 @@ export default function Hero({ title, subtitle, image }) {
 
                         duration-300
 
-                        hover:bg-blue-700
+                        hover:bg-amber-700
 
                         hover:scale-105
                     "

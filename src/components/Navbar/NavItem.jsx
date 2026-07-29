@@ -14,7 +14,7 @@ export default function NavItem({ href, text }) {
                 transition-colors
                 duration-200
 
-                hover:text-blue-600
+                hover:text-amber-700                                                                                                                                                                                                             
             "
         >
 
@@ -30,7 +30,7 @@ export default function NavItem({ href, text }) {
                     h-0.5
                     w-0
 
-                    bg-blue-600
+                    bg-amber-600
 
                     transition-all
                     duration-300
