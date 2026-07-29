@@ -1,6 +1,10 @@
+import ProjectGallery from "../components/projectGallery/ProjectGallery";
+
 function Gallery() {
   return (
-    <h1>Galleri</h1>
+    <>
+      <ProjectGallery />
+    </>
   );
 }
 

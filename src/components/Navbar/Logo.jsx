@@ -1,9 +1,10 @@
 import logo from "../../assets/logo.png";
+import { NavLink } from "react-router-dom";
 
 export default function Logo() {
     return (
-        <a
-            href="/"
+        <NavLink
+            to="/"
             className="
                 flex
                 items-center
@@ -28,6 +29,6 @@ export default function Logo() {
                 "
             />
 
-        </a>
+        </NavLink>
     );
 }
