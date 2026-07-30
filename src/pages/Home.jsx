@@ -3,7 +3,7 @@ import { useState } from 'react'
 import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 import ContactForm from "../components/ContactForm";
-import hero from "../assets/hero.png";
+import hero from "../assets/hero.avif";
 
 
 function Home() {

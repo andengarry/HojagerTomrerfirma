@@ -23,7 +23,9 @@ function AboutSection() {
                 {/* Højre side */}
                 <div className="flex items-center justify-center lg:justify-end">
                     <a
-                        href="#"
+                        href="https://www.facebook.com/hoejertoemrerfirma/"
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="
                             flex
                             items-center

@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 export default function Hero({ title, subtitle, image }) {
 
     return (
@@ -101,8 +103,8 @@ export default function Hero({ title, subtitle, image }) {
 
 
                 {/* CTA knap */}
-                <a
-                    href="/contact"
+                <NavLink
+                    to="/kontakt"
 
                     className="
                         mt-10
@@ -135,7 +137,7 @@ export default function Hero({ title, subtitle, image }) {
                     "
                 >
                     Kontakt os
-                </a>
+                </NavLink>
 
 
             </div>

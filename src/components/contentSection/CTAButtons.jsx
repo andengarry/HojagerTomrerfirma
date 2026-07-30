@@ -1,3 +1,5 @@
+import { NavLink } from "react-router-dom";
+
 function CTAButtons() {
     return (
         <div className="mt-8 flex flex-col gap-4 sm:flex-row">
@@ -19,8 +21,8 @@ function CTAButtons() {
                 Ring 22 88 14 29
             </a>
 
-            <a
-                href="/kontakt"
+            <NavLink
+                to="/kontakt"
                 className="
                     rounded-lg
                     border-2
@@ -37,7 +39,7 @@ function CTAButtons() {
                 "
             >
                 Gratis uforpligtet tilbud
-            </a>
+            </NavLink>
         </div>
     );
 }
