@@ -4,18 +4,21 @@ export default function NavItem({ href, text }) {
     return (
         <NavLink
             to={href}
-            className="
+            className={({ isActive }) => `
                 group
                 relative
 
                 font-medium
-                text-gray-700
 
                 transition-colors
                 duration-200
 
-                hover:text-amber-700                                                                                                                                                                                                             
-            "
+                ${
+                    isActive
+                        ? "text-amber-700"
+                        : "text-gray-700 hover:text-amber-700"
+                }
+            `}
         >
 
             {text}

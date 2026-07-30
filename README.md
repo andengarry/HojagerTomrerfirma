@@ -16,6 +16,8 @@ for produktion kør først
 npm run buid og derefter npm run deploy
 herved vil npm opdatere branch som hjemmesiden kører på på github pages
 
+kontakformularen virker kun fra deployed enviroment og ikke fra local env, da formspree kun tager imod forspørgsler fra det nuværende domæne. 
+
 med react loades siden som komponenter. app indeholder sammensætningen af alle komponenter.
 _________________________________________________________________
 

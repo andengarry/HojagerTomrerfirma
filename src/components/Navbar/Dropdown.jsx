@@ -1,9 +1,11 @@
 import { useEffect, useRef, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 
 export default function Dropdown({ title, items }) {
     const [open, setOpen] = useState(false);
     const dropdownRef = useRef(null);
+    const { pathname } = useLocation();
+    const isServicesActive = pathname.startsWith("/services");
 
     // Luk dropdown ved klik udenfor
     useEffect(() => {
@@ -66,17 +68,20 @@ export default function Dropdown({ title, items }) {
                 onClick={() => setOpen(!open)}
                 aria-haspopup="true"
                 aria-expanded={open}
-                className="
+                className={`
                     group
                     flex
                     items-center
                     gap-2
                     font-medium
-                    text-gray-700
                     transition
                     duration-200
-                    hover:text-amber-700
-                "
+                    ${
+                        isServicesActive
+                            ? "text-amber-700"
+                            : "text-gray-700 hover:text-amber-700"
+                    }
+                `}
             >
 
                 <span>
@@ -167,19 +172,19 @@ export default function Dropdown({ title, items }) {
                         <NavLink
                             key={item.href}
                             to={item.href}
-                            className="
+                            className={({ isActive }) => `
                                 block
                                 px-5
                                 py-3
-
                                 text-sm
-                                text-gray-700
-
                                 transition
 
-                                hover:bg-gray-50
-                                hover:text-amber-700
-                            "
+                                ${
+                                    isActive
+                                        ? "text-amber-700 font-medium"
+                                        : "text-gray-700 hover:bg-gray-50 hover:text-amber-700"
+                                }
+                            `}
                         >
                             {item.label}
                         </NavLink>
