@@ -197,7 +197,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                         gap-8\r
                         sm:grid-cols-2\r
                         lg:grid-cols-3\r
-                    `,children:Pr.map(e=>(0,j.jsx)(Mr,{title:e.title,image:e.image},e.id))})]})})}function Ir(){return(0,j.jsx)(j.Fragment,{children:(0,j.jsx)(Fr,{})})}function Lr(){let[e,t]=(0,x.useState)(0);return(0,j.jsx)(j.Fragment,{children:(0,j.jsx)(Sr,{})})}function Rr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function zr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function Br(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function Vr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}var Hr=`/assets/logo-CAK_upDP.png`;function Ur(){return(0,j.jsx)(Pn,{to:`/`,className:`\r
+                    `,children:Pr.map(e=>(0,j.jsx)(Mr,{title:e.title,image:e.image},e.id))})]})})}function Ir(){return(0,j.jsx)(j.Fragment,{children:(0,j.jsx)(Fr,{})})}function Lr(){let[e,t]=(0,x.useState)(0);return(0,j.jsx)(j.Fragment,{children:(0,j.jsx)(Sr,{})})}function Rr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function zr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function Br(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function Vr(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Or,{title:`Professionelt tømrerarbejde i hele Midtjylland`,text:`Vi hjælper både private og erhverv med alt fra tagrenoveringer og terrasser til tilbygninger og specialløsninger. Vi lægger vægt på høj kvalitet, god dialog og et resultat, der holder i mange år.`,image:Er,imageAlt:`Tømrerarbejde`}),(0,j.jsx)(Or,{title:`Terrasser bygget til mange års brug`,text:`En terrasse er familiens samlingspunkt om sommeren. Vi bygger terrasser i kvalitetsmaterialer og skræddersyr løsningen efter dine ønsker.`,image:Er,imageAlt:`Ny terrasse`,reverse:!0}),(0,j.jsx)(jr,{})]})}function Hr(){let{pathname:e}=A();return(0,x.useEffect)(()=>{window.scrollTo(0,0)},[e]),null}var Ur=`/assets/logo-CAK_upDP.png`;function Wr(){return(0,j.jsx)(Pn,{to:`/`,className:`\r
                 flex\r
                 items-center\r
 \r
@@ -205,24 +205,23 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                 duration-200\r
 \r
                 hover:scale-105\r
-            `,children:(0,j.jsx)(`img`,{src:Hr,alt:`Virksomhedens logo`,className:`\r
+            `,children:(0,j.jsx)(`img`,{src:Ur,alt:`Virksomhedens logo`,className:`\r
                     h-14\r
                     w-auto\r
 \r
                     object-contain\r
 \r
                     sm:h-16\r
-                `})})}function Wr({href:e,text:t}){return(0,j.jsxs)(Pn,{to:e,className:`\r
-                group\r
-                relative\r
-\r
-                font-medium\r
-                text-gray-700\r
-\r
-                transition-colors\r
-                duration-200\r
-\r
-                hover:text-amber-700                                                                                                                                                                                                             \r
+                `})})}function Gr({href:e,text:t}){return(0,j.jsxs)(Pn,{to:e,className:({isActive:e})=>`
+                group
+                relative
+
+                font-medium
+
+                transition-colors
+                duration-200
+
+                ${e?`text-amber-700`:`text-gray-700 hover:text-amber-700`}
             `,children:[t,(0,j.jsx)(`span`,{className:`\r
                     absolute\r
                     -bottom-2\r
@@ -237,16 +236,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     duration-300\r
 \r
                     group-hover:w-full\r
-                `})]})}function Gr({title:e,items:t}){let[n,r]=(0,x.useState)(!1),i=(0,x.useRef)(null);return(0,x.useEffect)(()=>{function e(e){i.current&&!i.current.contains(e.target)&&r(!1)}return document.addEventListener(`mousedown`,e),()=>{document.removeEventListener(`mousedown`,e)}},[]),(0,x.useEffect)(()=>{function e(e){e.key===`Escape`&&r(!1)}return document.addEventListener(`keydown`,e),()=>{document.removeEventListener(`keydown`,e)}},[]),(0,j.jsxs)(`div`,{ref:i,className:`relative`,onMouseEnter:()=>r(!0),onMouseLeave:()=>r(!1),children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>r(!n),"aria-haspopup":`true`,"aria-expanded":n,className:`\r
-                    group\r
-                    flex\r
-                    items-center\r
-                    gap-2\r
-                    font-medium\r
-                    text-gray-700\r
-                    transition\r
-                    duration-200\r
-                    hover:text-amber-700\r
+                `})]})}function Kr({title:e,items:t}){let[n,r]=(0,x.useState)(!1),i=(0,x.useRef)(null),{pathname:a}=A(),o=a.startsWith(`/services`);return(0,x.useEffect)(()=>{function e(e){i.current&&!i.current.contains(e.target)&&r(!1)}return document.addEventListener(`mousedown`,e),()=>{document.removeEventListener(`mousedown`,e)}},[]),(0,x.useEffect)(()=>{function e(e){e.key===`Escape`&&r(!1)}return document.addEventListener(`keydown`,e),()=>{document.removeEventListener(`keydown`,e)}},[]),(0,j.jsxs)(`div`,{ref:i,className:`relative`,onMouseEnter:()=>r(!0),onMouseLeave:()=>r(!1),children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>r(!n),"aria-haspopup":`true`,"aria-expanded":n,className:`
+                    group
+                    flex
+                    items-center
+                    gap-2
+                    font-medium
+                    transition
+                    duration-200
+                    ${o?`text-amber-700`:`text-gray-700 hover:text-amber-700`}
                 `,children:[(0,j.jsx)(`span`,{children:e}),(0,j.jsx)(`svg`,{className:`
                         h-4
                         w-4
@@ -294,19 +292,15 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                 -translate-y-3
                                 opacity-0
                             `}
-                `,children:(0,j.jsx)(`div`,{className:`py-2`,children:t.map(e=>(0,j.jsx)(Pn,{to:e.href,className:`\r
-                                block\r
-                                px-5\r
-                                py-3\r
-\r
-                                text-sm\r
-                                text-gray-700\r
-\r
-                                transition\r
-\r
-                                hover:bg-gray-50\r
-                                hover:text-amber-700\r
-                            `,children:e.label},e.href))})})]})}function Kr({phone:e,email:t}){return(0,j.jsxs)(`div`,{className:`\r
+                `,children:(0,j.jsx)(`div`,{className:`py-2`,children:t.map(e=>(0,j.jsx)(Pn,{to:e.href,className:({isActive:e})=>`
+                                block
+                                px-5
+                                py-3
+                                text-sm
+                                transition
+
+                                ${e?`text-amber-700 font-medium`:`text-gray-700 hover:bg-gray-50 hover:text-amber-700`}
+                            `,children:e.label},e.href))})})]})}function qr({phone:e,email:t}){return(0,j.jsxs)(`div`,{className:`\r
                 flex\r
                 flex-col\r
                 items-end\r
@@ -362,7 +356,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                             M2.94 5.94A2 2 0 014.36 5h11.28a2 2 0 011.42.94L10 10.94 2.94 5.94Z\r
                         `}),(0,j.jsx)(`path`,{d:`\r
                             M18 8.06v6.44a2 2 0 01-2 2H4a2 2 0 01-2-2V8.06l7.43 5.27a1 1 0 001.14 0L18 8.06Z\r
-                        `})]}),t]})]})}var qr=[{type:`link`,label:`Forside`,href:`/`},{type:`dropdown`,label:`Vi tilbyder`,items:[{type:`link`,label:`Køkkenopsætning`,href:`/services/køkkenopsætning`},{type:`link`,label:`Døre og vinduer`,href:`/services/døre-og-vinduer`},{type:`link`,label:`Tagrenovering`,href:`/services/tagrenovering`},{type:`link`,label:`Nybygning og tilbygning`,href:`/services/nybygning-og-tilbygning`}]},{type:`link`,label:`Om os`,href:`/om-os`},{type:`link`,label:`Galleri`,href:`/galleri`},{type:`link`,label:`Kontakt`,href:`/kontakt`}],Jr={phone:`+45 22 88 14 29`,email:`nikolaj@hojagertoemrerfirma.dk`};function Yr(){let[e,t]=(0,x.useState)(!1);function n(){t(!1)}return(0,j.jsxs)(`div`,{className:`relative lg:hidden`,children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>t(!e),"aria-label":`Åbn menu`,"aria-expanded":e,className:`\r
+                        `})]}),t]})]})}var Jr=[{type:`link`,label:`Forside`,href:`/`},{type:`dropdown`,label:`Vi tilbyder`,items:[{type:`link`,label:`Køkkenopsætning`,href:`/services/køkkenopsætning`},{type:`link`,label:`Døre og vinduer`,href:`/services/døre-og-vinduer`},{type:`link`,label:`Tagrenovering`,href:`/services/tagrenovering`},{type:`link`,label:`Nybygning og tilbygning`,href:`/services/nybygning-og-tilbygning`}]},{type:`link`,label:`Om os`,href:`/om-os`},{type:`link`,label:`Galleri`,href:`/galleri`},{type:`link`,label:`Kontakt`,href:`/kontakt`}],Yr={phone:`+45 22 88 14 29`,email:`nikolaj@hojagertoemrerfirma.dk`};function Xr(){let[e,t]=(0,x.useState)(!1);function n(){t(!1)}return(0,j.jsxs)(`div`,{className:`relative lg:hidden`,children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>t(!e),"aria-label":`Åbn menu`,"aria-expanded":e,className:`\r
                     flex\r
                     h-11\r
                     w-11\r
@@ -437,7 +431,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
                         px-6\r
                         py-6\r
-                    `,children:[qr.map(e=>e.type===`link`?(0,j.jsx)(`a`,{href:e.href,onClick:n,className:`\r
+                    `,children:[Jr.map(e=>e.type===`link`?(0,j.jsx)(`a`,{href:e.href,onClick:n,className:`\r
                                             rounded-lg\r
 \r
                                             px-4\r
@@ -454,7 +448,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                         `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{className:`\r
                                             px-4\r
                                             py-2\r
-                                        `,children:(0,j.jsx)(Gr,{title:e.label,items:e.items})},e.label):null),(0,j.jsxs)(`div`,{className:`\r
+                                        `,children:(0,j.jsx)(Kr,{title:e.label,items:e.items})},e.label):null),(0,j.jsxs)(`div`,{className:`\r
                             mt-5\r
 \r
                             border-t\r
@@ -463,7 +457,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                             pt-5\r
 \r
                             px-4\r
-                        `,children:[(0,j.jsxs)(`a`,{href:`tel:${Jr.phone}`,className:`\r
+                        `,children:[(0,j.jsxs)(`a`,{href:`tel:${Yr.phone}`,className:`\r
                                 flex\r
                                 items-center\r
                                 gap-2\r
@@ -475,7 +469,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                 transition\r
 \r
                                 hover:text-blue-600\r
-                            `,children:[(0,j.jsx)(`span`,{children:`📞`}),Jr.phone]}),(0,j.jsxs)(`a`,{href:`mailto:${Jr.email}`,className:`\r
+                            `,children:[(0,j.jsx)(`span`,{children:`📞`}),Yr.phone]}),(0,j.jsxs)(`a`,{href:`mailto:${Yr.email}`,className:`\r
                                 flex\r
                                 items-center\r
                                 gap-2\r
@@ -487,7 +481,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                 transition\r
 \r
                                 hover:text-blue-600\r
-                            `,children:[(0,j.jsx)(`span`,{children:`✉`}),Jr.email]})]})]})})]})}function Xr(){return(0,j.jsx)(`header`,{className:`\r
+                            `,children:[(0,j.jsx)(`span`,{children:`✉`}),Yr.email]})]})]})})]})}function Zr(){return(0,j.jsx)(`header`,{className:`\r
                 sticky\r
                 top-0\r
                 z-50\r
@@ -518,7 +512,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     lg:px-8\r
                 `,children:[(0,j.jsx)(`div`,{className:`\r
                         flex-1\r
-                    `,children:(0,j.jsx)(Ur,{})}),(0,j.jsx)(`nav`,{className:`\r
+                    `,children:(0,j.jsx)(Wr,{})}),(0,j.jsx)(`nav`,{className:`\r
                         hidden\r
                         flex-1\r
                         items-center\r
@@ -527,7 +521,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                         lg:flex\r
                         whitespace-nowrap\r
 \r
-                    `,children:qr.map(e=>e.type===`link`?(0,j.jsx)(Wr,{href:e.href,text:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(Gr,{title:e.label,items:e.items},e.label):null)}),(0,j.jsx)(`div`,{className:`\r
+                    `,children:Jr.map(e=>e.type===`link`?(0,j.jsx)(Gr,{href:e.href,text:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(Kr,{title:e.label,items:e.items},e.label):null)}),(0,j.jsx)(`div`,{className:`\r
                         hidden\r
 \r
                         flex-1\r
@@ -535,10 +529,10 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                         justify-end\r
 \r
                         lg:flex\r
-                    `,children:(0,j.jsx)(Kr,{phone:Jr.phone,email:Jr.email})}),(0,j.jsx)(`div`,{className:`\r
+                    `,children:(0,j.jsx)(qr,{phone:Yr.phone,email:Yr.email})}),(0,j.jsx)(`div`,{className:`\r
                         flex\r
 \r
                         justify-end\r
 \r
                         lg:hidden\r
-                    `,children:(0,j.jsx)(Yr,{})})]})})}var Zr=[{question:`Tilbyder I gratis tilbud?`,answer:`Ja. Vi tilbyder altid et uforpligtende tilbud, hvor vi gennemgår opgaven og finder den bedste løsning.`},{question:`Hvilke typer opgaver udfører I?`,answer:`Vi udfører alt inden for tømrerarbejde såsom renovering, tagarbejde, terrasser, carporte, vinduer og specialopgaver.`},{question:`Hvor hurtigt kan I starte?`,answer:`Det afhænger af projektets størrelse og vores kalender. Kontakt os, så finder vi hurtigst muligt en løsning.`}],Qr=[`Holstebro`,`Herning`,`Horsens`,`Silkeborg`,`Viborg`,`Aarhus`,`Ringkøbing`,`Brande`];function $r(){let[e,t]=(0,x.useState)(null),n=n=>{t(e===n?null:n)};return(0,j.jsxs)(`footer`,{className:`w-full bg-zinc-900 text-white`,children:[(0,j.jsxs)(`div`,{className:`mx-auto max-w-7xl px-6 py-20 lg:px-8`,children:[(0,j.jsxs)(`div`,{className:`mb-16 text-center`,children:[(0,j.jsx)(`h2`,{className:`text-4xl font-bold tracking-tight`,children:`Har du spørgsmål til dit næste projekt?`}),(0,j.jsx)(`p`,{className:`mx-auto mt-5 w-full text-lg leading-8 text-gray-300`,children:`Vi står klar til at hjælpe med rådgivning, tilbud og løsninger, der passer til dine behov.`})]}),(0,j.jsxs)(`div`,{className:`grid gap-12 lg:grid-cols-3`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`FAQ`}),(0,j.jsx)(`div`,{className:`space-y-4`,children:Zr.map((t,r)=>(0,j.jsxs)(`div`,{className:`overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-800/40 transition hover:border-amber-500`,children:[(0,j.jsxs)(`button`,{onClick:()=>n(r),className:`flex w-full items-center justify-between px-5 py-4 text-left font-medium transition hover:bg-zinc-800`,children:[(0,j.jsx)(`span`,{children:t.question}),e===r?(0,j.jsx)(yr,{}):(0,j.jsx)(br,{})]}),(0,j.jsx)(`div`,{className:`grid overflow-hidden transition-all duration-300 ${e===r?`grid-rows-[1fr]`:`grid-rows-[0fr]`}`,children:(0,j.jsx)(`div`,{className:`overflow-hidden`,children:(0,j.jsx)(`div`,{className:`border-t border-zinc-700 px-5 py-4 text-gray-300`,children:t.answer})})})]},t.question))})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`Kontakt`}),(0,j.jsxs)(`div`,{className:`space-y-5`,children:[(0,j.jsxs)(`a`,{href:`tel:+4512345678`,className:`flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700`,children:[(0,j.jsx)(`div`,{className:`rounded-full bg-amber-600 p-3`,children:(0,j.jsx)(hr,{})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-400`,children:`Ring til os`}),(0,j.jsx)(`p`,{className:`font-semibold`,children:`+45 22 88 14 29`})]})]}),(0,j.jsxs)(`a`,{href:`nikolaj@hojagertoemrerfirma.dk`,className:`flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700`,children:[(0,j.jsx)(`div`,{className:`rounded-full bg-amber-600 p-3`,children:(0,j.jsx)(_r,{})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-400`,children:`Skriv til os`}),(0,j.jsx)(`p`,{className:`text-xs font-semibold`,children:`nikolaj@hojagertoemrerfirma.dk`})]})]})]})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`Vi dækker`}),(0,j.jsxs)(`div`,{className:`flex items-start gap-4 mb-6`,children:[(0,j.jsx)(gr,{className:`mt-1 text-amber-500`}),(0,j.jsx)(`p`,{className:`leading-7 text-gray-300`,children:`Vi udfører tømrerarbejde i hele Midtjylland for både private og erhverv.`})]}),(0,j.jsx)(`div`,{className:`grid grid-cols-2 gap-3`,children:Qr.map(e=>(0,j.jsx)(`div`,{className:`rounded-xl bg-zinc-800 px-4 py-3 text-center text-sm transition hover:bg-amber-600`,children:e},e))})]})]})]}),(0,j.jsx)(`div`,{className:`border-t border-zinc-800`,children:(0,j.jsxs)(`div`,{className:`mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-gray-400 md:flex-row lg:px-8`,children:[(0,j.jsxs)(`p`,{children:[`© `,new Date().getFullYear(),` Højager Tømrerfirma. Alle rettigheder forbeholdes.`]}),(0,j.jsxs)(`div`,{className:`flex gap-6`,children:[(0,j.jsx)(`a`,{href:`#`,className:`transition hover:text-white`,children:`Privatlivspolitik`}),(0,j.jsx)(`a`,{href:`#`,className:`transition hover:text-white`,children:`Cookies`}),(0,j.jsx)(`span`,{children:`CVR: 42983012`})]})]})})]})}function ei(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Xr,{}),(0,j.jsxs)(Ut,{children:[(0,j.jsx)(Vt,{path:`/`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(Vt,{path:`/services`,element:(0,j.jsx)(Ir,{})}),(0,j.jsx)(Vt,{path:`/services/køkkenopsætning`,element:(0,j.jsx)(Rr,{})}),(0,j.jsx)(Vt,{path:`/services/døre-og-vinduer`,element:(0,j.jsx)(zr,{})}),(0,j.jsx)(Vt,{path:`/services/tagrenovering`,element:(0,j.jsx)(Br,{})}),(0,j.jsx)(Vt,{path:`/services/nybygning-og-tilbygning`,element:(0,j.jsx)(Vr,{})}),(0,j.jsx)(Vt,{path:`/galleri`,element:(0,j.jsx)(Ir,{})}),(0,j.jsx)(Vt,{path:`/om-os`,element:(0,j.jsx)(kr,{})}),(0,j.jsx)(Vt,{path:`/kontakt`,element:(0,j.jsx)(Lr,{})})]}),(0,j.jsx)($r,{})]})}(0,Zn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(jn,{children:(0,j.jsx)(ei,{})})}));
+                    `,children:(0,j.jsx)(Xr,{})})]})})}var Qr=[{question:`Tilbyder I gratis tilbud?`,answer:`Ja. Vi tilbyder altid et uforpligtende tilbud, hvor vi gennemgår opgaven og finder den bedste løsning.`},{question:`Hvilke typer opgaver udfører I?`,answer:`Vi udfører alt inden for tømrerarbejde såsom renovering, tagarbejde, terrasser, carporte, vinduer og specialopgaver.`},{question:`Hvor hurtigt kan I starte?`,answer:`Det afhænger af projektets størrelse og vores kalender. Kontakt os, så finder vi hurtigst muligt en løsning.`}],$r=[`Holstebro`,`Herning`,`Horsens`,`Silkeborg`,`Viborg`,`Aarhus`,`Ringkøbing`,`Brande`];function ei(){let[e,t]=(0,x.useState)(null),n=n=>{t(e===n?null:n)};return(0,j.jsxs)(`footer`,{className:`w-full bg-zinc-900 text-white`,children:[(0,j.jsxs)(`div`,{className:`mx-auto max-w-7xl px-6 py-20 lg:px-8`,children:[(0,j.jsxs)(`div`,{className:`mb-16 text-center`,children:[(0,j.jsx)(`h2`,{className:`text-4xl font-bold tracking-tight`,children:`Har du spørgsmål til dit næste projekt?`}),(0,j.jsx)(`p`,{className:`mx-auto mt-5 w-full text-lg leading-8 text-gray-300`,children:`Vi står klar til at hjælpe med rådgivning, tilbud og løsninger, der passer til dine behov.`})]}),(0,j.jsxs)(`div`,{className:`grid gap-12 lg:grid-cols-3`,children:[(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`FAQ`}),(0,j.jsx)(`div`,{className:`space-y-4`,children:Qr.map((t,r)=>(0,j.jsxs)(`div`,{className:`overflow-hidden rounded-2xl border border-zinc-700 bg-zinc-800/40 transition hover:border-amber-500`,children:[(0,j.jsxs)(`button`,{onClick:()=>n(r),className:`flex w-full items-center justify-between px-5 py-4 text-left font-medium transition hover:bg-zinc-800`,children:[(0,j.jsx)(`span`,{children:t.question}),e===r?(0,j.jsx)(yr,{}):(0,j.jsx)(br,{})]}),(0,j.jsx)(`div`,{className:`grid overflow-hidden transition-all duration-300 ${e===r?`grid-rows-[1fr]`:`grid-rows-[0fr]`}`,children:(0,j.jsx)(`div`,{className:`overflow-hidden`,children:(0,j.jsx)(`div`,{className:`border-t border-zinc-700 px-5 py-4 text-gray-300`,children:t.answer})})})]},t.question))})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`Kontakt`}),(0,j.jsxs)(`div`,{className:`space-y-5`,children:[(0,j.jsxs)(`a`,{href:`tel:+4512345678`,className:`flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700`,children:[(0,j.jsx)(`div`,{className:`rounded-full bg-amber-600 p-3`,children:(0,j.jsx)(hr,{})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-400`,children:`Ring til os`}),(0,j.jsx)(`p`,{className:`font-semibold`,children:`+45 22 88 14 29`})]})]}),(0,j.jsxs)(`a`,{href:`nikolaj@hojagertoemrerfirma.dk`,className:`flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700`,children:[(0,j.jsx)(`div`,{className:`rounded-full bg-amber-600 p-3`,children:(0,j.jsx)(_r,{})}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`p`,{className:`text-sm text-gray-400`,children:`Skriv til os`}),(0,j.jsx)(`p`,{className:`text-xs font-semibold`,children:`nikolaj@hojagertoemrerfirma.dk`})]})]})]})]}),(0,j.jsxs)(`div`,{children:[(0,j.jsx)(`h3`,{className:`mb-6 text-2xl font-semibold`,children:`Vi dækker`}),(0,j.jsxs)(`div`,{className:`flex items-start gap-4 mb-6`,children:[(0,j.jsx)(gr,{className:`mt-1 text-amber-500`}),(0,j.jsx)(`p`,{className:`leading-7 text-gray-300`,children:`Vi udfører tømrerarbejde i hele Midtjylland for både private og erhverv.`})]}),(0,j.jsx)(`div`,{className:`grid grid-cols-2 gap-3`,children:$r.map(e=>(0,j.jsx)(`div`,{className:`rounded-xl bg-zinc-800 px-4 py-3 text-center text-sm transition hover:bg-amber-600`,children:e},e))})]})]})]}),(0,j.jsx)(`div`,{className:`border-t border-zinc-800`,children:(0,j.jsxs)(`div`,{className:`mx-auto flex max-w-7xl flex-col items-center justify-between gap-3 px-6 py-6 text-sm text-gray-400 md:flex-row lg:px-8`,children:[(0,j.jsxs)(`p`,{children:[`© `,new Date().getFullYear(),` Højager Tømrerfirma. Alle rettigheder forbeholdes.`]}),(0,j.jsxs)(`div`,{className:`flex gap-6`,children:[(0,j.jsx)(`a`,{href:`#`,className:`transition hover:text-white`,children:`Privatlivspolitik`}),(0,j.jsx)(`a`,{href:`#`,className:`transition hover:text-white`,children:`Cookies`}),(0,j.jsx)(`span`,{children:`CVR: 42983012`})]})]})})]})}function ti(){return(0,j.jsxs)(j.Fragment,{children:[(0,j.jsx)(Hr,{}),(0,j.jsx)(Zr,{}),(0,j.jsxs)(Ut,{children:[(0,j.jsx)(Vt,{path:`/`,element:(0,j.jsx)(Tr,{})}),(0,j.jsx)(Vt,{path:`/services`,element:(0,j.jsx)(Ir,{})}),(0,j.jsx)(Vt,{path:`/services/køkkenopsætning`,element:(0,j.jsx)(Rr,{})}),(0,j.jsx)(Vt,{path:`/services/døre-og-vinduer`,element:(0,j.jsx)(zr,{})}),(0,j.jsx)(Vt,{path:`/services/tagrenovering`,element:(0,j.jsx)(Br,{})}),(0,j.jsx)(Vt,{path:`/services/nybygning-og-tilbygning`,element:(0,j.jsx)(Vr,{})}),(0,j.jsx)(Vt,{path:`/galleri`,element:(0,j.jsx)(Ir,{})}),(0,j.jsx)(Vt,{path:`/om-os`,element:(0,j.jsx)(kr,{})}),(0,j.jsx)(Vt,{path:`/kontakt`,element:(0,j.jsx)(Lr,{})})]}),(0,j.jsx)(ei,{})]})}(0,Zn.createRoot)(document.getElementById(`root`)).render((0,j.jsx)(x.StrictMode,{children:(0,j.jsx)(jn,{children:(0,j.jsx)(ti,{})})}));
