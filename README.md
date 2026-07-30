@@ -10,6 +10,11 @@ den kører på http://localhost:5173/
 
 for at stoppe serveren tryk ctrl + c og når den skal startes, skal være i denne mappe og køre:
 npm run dev
+dev kører lokalt og herved kan ændringerne ses inden de deployes og til sidst når alt ok push til main
+
+for produktion kør først
+npm run buid og derefter npm run deploy
+herved vil npm opdatere branch som hjemmesiden kører på på github pages
 
 med react loades siden som komponenter. app indeholder sammensætningen af alle komponenter.
 _________________________________________________________________

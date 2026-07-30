@@ -22,21 +22,36 @@ function ContactForm() {
     }));
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+const [sending, setSending] = useState(false);
 
-    console.log(formData);
+const handleSubmit = async (e) => {
+  e.preventDefault();
+  setSending(true);
 
-    alert("Tak for din henvendelse!");
-
-    setFormData({
-      name: "",
-      email: "",
-      phone: "",
-      subject: "",
-      message: "",
+  try {
+    const response = await fetch("https://formspree.io/f/mnjerwgz", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+      body: JSON.stringify(formData),
     });
-  };
+
+    if (response.ok) {
+      alert("Tak for din besked!");
+      setFormData({
+        name: "",
+        phone: "",
+        email: "",
+        subject: "",
+        message: "",
+      });
+    }
+  } finally {
+    setSending(false);
+  }
+};
 
   return (
     <section className="w-full bg-stone-100 py-20">
