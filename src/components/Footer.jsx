@@ -4,8 +4,13 @@ import {
   FaChevronUp,
   FaPhoneAlt,
   FaEnvelope,
-  FaMapMarkerAlt,
+  FaClipboardList,
 } from "react-icons/fa";
+
+import { NavLink } from "react-router-dom";
+
+
+
 
 
 const faqItems = [
@@ -162,7 +167,7 @@ function Footer() {
 
               <a
                 href="tel:+4512345678"
-                className="flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
+                className="flex items-center rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
               >
 
                 <div className="rounded-full bg-amber-600 p-3">
@@ -170,7 +175,7 @@ function Footer() {
                 </div>
 
 
-                <div>
+                <div className="flex-1 text-center">
 
                   <p className="text-sm text-gray-400">
                     Ring til os
@@ -190,7 +195,7 @@ function Footer() {
 
               <a
                 href="nikolaj@hojagertoemrerfirma.dk"
-                className="flex items-center gap-4 rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
+                className="flex items-center rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
               >
 
                 <div className="rounded-full bg-amber-600 p-3">
@@ -198,7 +203,7 @@ function Footer() {
                 </div>
 
 
-                <div>
+                <div className="flex-1 text-center">
 
                   <p className="text-sm text-gray-400">
                     Skriv til os
@@ -213,6 +218,29 @@ function Footer() {
 
               </a>
 
+              <NavLink
+                to="/kontakt"
+                className="flex rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
+              >
+
+                <div className="rounded-full bg-amber-600 p-3">
+                  <FaClipboardList />
+                </div>
+
+
+                <div className="flex-1 text-center">
+
+                  <p className="text-sm text-gray-400">
+                    Send en forspørgsel
+                  </p>
+
+                   <p className="text-xs font-semibold">
+                    udfyld kontaktformularen
+                  </p>
+
+                </div>
+
+              </NavLink>
 
             </div>
 
@@ -227,14 +255,11 @@ function Footer() {
           <div>
 
             <h3 className="mb-6 text-2xl font-semibold">
-              Vi dækker
+              Område
             </h3>
 
 
             <div className="flex items-start gap-4 mb-6">
-
-              <FaMapMarkerAlt className="mt-1 text-amber-500" />
-
 
               <p className="leading-7 text-gray-300">
                 Vi udfører tømrerarbejde i hele Midtjylland

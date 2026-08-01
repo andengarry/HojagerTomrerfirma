@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function CTAButtons() {
     return (
-        <div className="mt-8 flex flex-col gap-4 sm:flex-row">
+        <div className="mt-8 flex flex-col gap-10 pl-8 sm:flex-row">
             <a
                 href="tel:22881429"
                 className="
@@ -13,9 +13,10 @@ function CTAButtons() {
                     text-center
                     font-semibold
                     text-white
+                    text-sm
                     transition
                     duration-300
-                    hover:bg-gray-800
+                    hover:bg-gray-700
                 "
             >
                 Ring 22 88 14 29
@@ -25,10 +26,11 @@ function CTAButtons() {
                 to="/kontakt"
                 className="
                     rounded-lg
-                    border-2
+                    border
                     border-amber-600
                     px-6
                     py-3
+                    text-sm
                     text-center
                     font-semibold
                     text-amber-600
