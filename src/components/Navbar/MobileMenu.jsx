@@ -171,7 +171,7 @@ export default function MobileMenu() {
                                             transition
 
                                             hover:bg-gray-50
-                                            hover:text-blue-600
+                                            hover:text-amber-700
                                         "
                                     >
                                         {item.label}
@@ -187,9 +187,11 @@ export default function MobileMenu() {
                                 return (
                                     <div
                                         key={item.label}
+                                        onClick={closeMenu}
                                         className="
-                                            px-4
-                                            py-2
+                                            flex
+                                            justify-center
+                                            py-3
                                         "
                                     >
 
