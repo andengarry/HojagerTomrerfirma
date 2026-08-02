@@ -446,10 +446,11 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                             transition\r
 \r
                                             hover:bg-gray-50\r
-                                            hover:text-blue-600\r
-                                        `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{className:`\r
-                                            px-4\r
-                                            py-2\r
+                                            hover:text-amber-700\r
+                                        `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{onClick:n,className:`\r
+                                            flex\r
+                                            justify-center\r
+                                            py-3\r
                                         `,children:(0,j.jsx)(Kr,{title:e.label,items:e.items})},e.label):null),(0,j.jsxs)(`div`,{className:`\r
                             mt-5\r
 \r
