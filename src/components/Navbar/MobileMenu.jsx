@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Dropdown from "./Dropdown";
+import { NavLink } from "react-router-dom";
 import navConfig, { companyInfo } from "./navConfig";
 
 
@@ -152,9 +153,9 @@ export default function MobileMenu() {
                             if (item.type === "link") {
 
                                 return (
-                                    <a
+                                    <NavLink
                                         key={item.href}
-                                        href={item.href}
+                                        to={item.href}
                                         onClick={closeMenu}
 
                                         className="
@@ -174,7 +175,7 @@ export default function MobileMenu() {
                                         "
                                     >
                                         {item.label}
-                                    </a>
+                                    </NavLink>
                                 );
                             }
 
