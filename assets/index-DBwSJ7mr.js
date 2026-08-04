@@ -433,21 +433,20 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
                         px-6\r
                         py-6\r
-                    `,children:[Jr.map(e=>e.type===`link`?(0,j.jsx)(Pn,{to:e.href,onClick:n,className:`\r
-                                            rounded-lg\r
-\r
-                                            px-4\r
-                                            py-3\r
-\r
-                                            font-medium\r
-\r
-                                            text-gray-700\r
-\r
-                                            transition\r
-\r
-                                            hover:bg-gray-50\r
-                                            hover:text-amber-700\r
-                                        `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{className:`\r
+                    `,children:[Jr.map(e=>e.type===`link`?(0,j.jsx)(Pn,{to:e.href,onClick:n,className:({isActive:e})=>`
+                                            rounded-lg
+
+                                            px-4
+                                            py-3
+
+                                            font-medium
+
+                                            transition
+
+                                            hover:bg-gray-50
+                                            hover:text-amber-700
+                                        ${e?`text-amber-700`:`text-gray-700 hover:text-amber-700`}
+                                    `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{className:`\r
                                             flex\r
                                             justify-center\r
                                             py-3\r
