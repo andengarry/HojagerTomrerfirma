@@ -238,7 +238,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     duration-300\r
 \r
                     group-hover:w-full\r
-                `})]})}function Kr({title:e,items:t}){let[n,r]=(0,x.useState)(!1),i=(0,x.useRef)(null),{pathname:a}=A(),o=a.startsWith(`/services`);return(0,x.useEffect)(()=>{function e(e){i.current&&!i.current.contains(e.target)&&r(!1)}return document.addEventListener(`mousedown`,e),()=>{document.removeEventListener(`mousedown`,e)}},[]),(0,x.useEffect)(()=>{function e(e){e.key===`Escape`&&r(!1)}return document.addEventListener(`keydown`,e),()=>{document.removeEventListener(`keydown`,e)}},[]),(0,j.jsxs)(`div`,{ref:i,className:`relative`,onMouseEnter:()=>r(!0),onMouseLeave:()=>r(!1),children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>r(!n),"aria-haspopup":`true`,"aria-expanded":n,className:`
+                `})]})}function Kr({title:e,items:t,onItemClick:n}){let[r,i]=(0,x.useState)(!1),a=(0,x.useRef)(null),{pathname:o}=A(),s=o.startsWith(`/services`);return(0,x.useEffect)(()=>{function e(e){a.current&&!a.current.contains(e.target)&&i(!1)}return document.addEventListener(`mousedown`,e),()=>{document.removeEventListener(`mousedown`,e)}},[]),(0,x.useEffect)(()=>{function e(e){e.key===`Escape`&&i(!1)}return document.addEventListener(`keydown`,e),()=>{document.removeEventListener(`keydown`,e)}},[]),(0,j.jsxs)(`div`,{ref:a,className:`relative`,onMouseEnter:()=>i(!0),onMouseLeave:()=>i(!1),children:[(0,j.jsxs)(`button`,{type:`button`,onClick:()=>i(!r),"aria-haspopup":`true`,"aria-expanded":r,className:`
                     group
                     flex
                     items-center
@@ -246,13 +246,13 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     font-medium
                     transition
                     duration-200
-                    ${o?`text-amber-700`:`text-gray-700 hover:text-amber-700`}
+                    ${s?`text-amber-700`:`text-gray-700 hover:text-amber-700`}
                 `,children:[(0,j.jsx)(`span`,{children:e}),(0,j.jsx)(`svg`,{className:`
                         h-4
                         w-4
                         transition-transform
                         duration-200
-                        ${n?`rotate-180`:`rotate-0`}
+                        ${r?`rotate-180`:`rotate-0`}
                     `,viewBox:`0 0 20 20`,fill:`currentColor`,children:(0,j.jsx)(`path`,{fillRule:`evenodd`,d:`\r
                             M5.23 7.21\r
                             a.75.75 0 011.06.02\r
@@ -285,7 +285,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                     duration-200
                     origin-top
 
-                    ${n?`
+                    ${r?`
                                 visible
                                 translate-y-0
                                 opacity-100
@@ -451,7 +451,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                             flex\r
                                             justify-center\r
                                             py-3\r
-                                        `,children:(0,j.jsx)(Kr,{title:e.label,items:e.items})},e.label):null),(0,j.jsxs)(`div`,{className:`\r
+                                        `,children:(0,j.jsx)(Kr,{title:e.label,items:e.items,onItemClick:n})},e.label):null),(0,j.jsxs)(`div`,{className:`\r
                             mt-5\r
 \r
                             border-t\r
