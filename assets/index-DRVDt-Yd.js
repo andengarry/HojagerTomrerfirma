@@ -447,7 +447,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
 \r
                                             hover:bg-gray-50\r
                                             hover:text-amber-700\r
-                                        `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{onClick:n,className:`\r
+                                        `,children:e.label},e.href):e.type===`dropdown`?(0,j.jsx)(`div`,{className:`\r
                                             flex\r
                                             justify-center\r
                                             py-3\r
