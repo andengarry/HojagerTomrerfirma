@@ -294,7 +294,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
                                 -translate-y-3
                                 opacity-0
                             `}
-                `,children:(0,j.jsx)(`div`,{className:`py-2`,children:t.map(e=>(0,j.jsx)(Pn,{to:e.href,className:({isActive:e})=>`
+                `,children:(0,j.jsx)(`div`,{className:`py-2`,children:t.map(e=>(0,j.jsx)(Pn,{to:e.href,onClick:n,className:({isActive:e})=>`
                                 block
                                 px-5
                                 py-3
