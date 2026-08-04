@@ -79,12 +79,12 @@ const handleSubmit = async (e) => {
 
             <div className="space-y-8">
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-start">
                 <div className="mt-1 rounded-full bg-amber-600 p-3">
                   <FaPhoneAlt />
                 </div>
 
-                <div>
+                <div className="flex-1 text-center -ml-10">
                   <p className="font-semibold">Telefon</p>
                   <a
                     href="tel:+4522881429"
@@ -100,7 +100,7 @@ const handleSubmit = async (e) => {
                   <FaEnvelope />
                 </div>
 
-                <div>
+                <div className="flex-1 text-center -ml-10">
                   <p className="font-semibold">Email</p>
                   <a
                     href="mailto:nikolaj@hojagertoemrerfirma.dk"
@@ -116,7 +116,7 @@ const handleSubmit = async (e) => {
                   <FaMapMarkerAlt />
                 </div>
 
-                <div>
+                <div className="flex-1 text-center -ml-10">
                   <p className="font-semibold">Adresse</p>
                   <p className="text-gray-300">
                     Særkærparken 61
@@ -131,7 +131,7 @@ const handleSubmit = async (e) => {
                   <FaClock />
                 </div>
 
-                <div>
+                <div className="flex-1 text-center -ml-10">
                   <p className="font-semibold">Åbningstider</p>
                   <p className="text-gray-300">
                     Man - Fre

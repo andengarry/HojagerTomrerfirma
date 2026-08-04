@@ -3,7 +3,6 @@ import Dropdown from "./Dropdown";
 import { NavLink } from "react-router-dom";
 import navConfig, { companyInfo } from "./navConfig";
 
-
 export default function MobileMenu() {
 
     const [open, setOpen] = useState(false);
@@ -157,8 +156,7 @@ export default function MobileMenu() {
                                         key={item.href}
                                         to={item.href}
                                         onClick={closeMenu}
-
-                                        className="
+                                        className={({ isActive }) => `
                                             rounded-lg
 
                                             px-4
@@ -166,15 +164,18 @@ export default function MobileMenu() {
 
                                             font-medium
 
-                                            text-gray-700
-
                                             transition
 
                                             hover:bg-gray-50
                                             hover:text-amber-700
-                                        "
+                                        ${
+                                            isActive
+                                                ? "text-amber-700"
+                                                : "text-gray-700 hover:text-amber-700"
+                                        }
+                                    `}
                                     >
-                                        {item.label}
+                                    {item.label}
                                     </NavLink>
                                 );
                             }
@@ -187,7 +188,6 @@ export default function MobileMenu() {
                                 return (
                                     <div
                                         key={item.label}
-                                        onClick={closeMenu}
                                         className="
                                             flex
                                             justify-center
@@ -198,6 +198,7 @@ export default function MobileMenu() {
                                         <Dropdown
                                             title={item.label}
                                             items={item.items}
+                                            onItemClick={closeMenu}
                                         />
 
                                     </div>

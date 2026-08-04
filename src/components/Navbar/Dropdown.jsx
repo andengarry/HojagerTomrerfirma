@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-export default function Dropdown({ title, items }) {
+export default function Dropdown({ title, items, onItemClick }) {
     const [open, setOpen] = useState(false);
     const dropdownRef = useRef(null);
     const { pathname } = useLocation();
@@ -172,6 +172,7 @@ export default function Dropdown({ title, items }) {
                         <NavLink
                             key={item.href}
                             to={item.href}
+                            onClick={onItemClick}
                             className={({ isActive }) => `
                                 block
                                 px-5
