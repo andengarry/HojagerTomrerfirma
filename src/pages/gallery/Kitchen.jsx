@@ -6,7 +6,10 @@ function Kitchen() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Køkken"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

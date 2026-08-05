@@ -6,7 +6,10 @@ function Wardrobe() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Garderober"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

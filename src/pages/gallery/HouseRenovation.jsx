@@ -6,7 +6,10 @@ function HouseRenovation() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Husrenovering"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

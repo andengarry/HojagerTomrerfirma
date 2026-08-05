@@ -1,16 +1,16 @@
 import referenceImages from "./referenceImages";
 
-function ReferenceGallery() {
+function ReferenceGallery({title, text}) {
     return (
         <section className="w-full bg-white py-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
                 <header className="mb-12 text-center">
                     <h2 className="text-4xl font-bold text-gray-900">
-                        Referencer
+                        {title}
                     </h2>
 
                     <p className="mx-auto mt-4 w-full text-lg text-gray-600">
-                        Se et udvalg af vores tidligere projekter.
+                        {text}
                     </p>
                 </header>
 

@@ -6,7 +6,10 @@ function Bathroom() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Badeværelser"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

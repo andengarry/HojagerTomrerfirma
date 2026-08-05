@@ -20,7 +20,10 @@ function Kitchen() {
                 reverse
             />
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Referencer"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

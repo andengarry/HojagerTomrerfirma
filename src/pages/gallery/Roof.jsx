@@ -6,7 +6,10 @@ function Roof() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Tag"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

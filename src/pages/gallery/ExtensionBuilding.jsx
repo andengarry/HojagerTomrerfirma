@@ -6,7 +6,10 @@ function ExtensionBuilding() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Tilbygning"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

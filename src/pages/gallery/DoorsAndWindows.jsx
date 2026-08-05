@@ -6,7 +6,10 @@ function DoorsAndWindows() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Døre og Vinduer"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

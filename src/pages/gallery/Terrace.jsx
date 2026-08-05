@@ -6,7 +6,10 @@ function Terrace() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Terrasser"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );

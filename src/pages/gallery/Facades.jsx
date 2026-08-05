@@ -6,7 +6,10 @@ function Facades() {
     return (
         <>
 
-            <ReferenceGallery />
+            <ReferenceGallery 
+                title="Fasader"
+                text="Se et udvalg af vores tidligere projekter."
+            />
 
         </>
     );
