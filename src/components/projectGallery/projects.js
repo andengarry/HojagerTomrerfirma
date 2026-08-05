@@ -1,49 +1,49 @@
-import project1 from "../../assets/projects/testProjectPicture.png";
-import project2 from "../../assets/projects/testProjectPicture.png";
-import project3 from "../../assets/projects/testProjectPicture.png";
-import project4 from "../../assets/projects/testProjectPicture.png";
-import project5 from "../../assets/projects/testProjectPicture.png";
-import project6 from "../../assets/projects/testProjectPicture.png";
-import project7 from "../../assets/projects/testProjectPicture.png";
-import project8 from "../../assets/projects/testProjectPicture.png";
-import project9 from "../../assets/projects/testProjectPicture.png";
+import køkken from "../../assets/Køkken/IMG_6914.jpeg";
+import garderobe from "../../assets/Garderobe/IMG_6625.jpeg";
+import badeværelse from "../../assets/bad/IMG_6484.jpeg";
+import tag from "../../assets/tag/IMG_8091.jpeg";
+import husrenovering from "../../assets/Husrenovering/IMG_8696.jpeg";
+import døreOgVinduer from "../../assets/Vinduer/IMG_8073.jpeg";
+import project7 from "../../assets/Tilbygning/IMG_0578.jpeg";
+import project8 from "../../assets/Facader/IMG_6165.jpeg";
+import project9 from "../../assets/Terrasse/IMG_1770.jpg";
 
 const projects = [
     {
         id: 1,
         title: "Køkken",
         href: "/galleri/køkken",
-        image: project1,
+        image: køkken,
     },
     {
         id: 2,
         title: "Garderobe",
         href: "/galleri/garderobe", 
-        image: project2,
+        image: garderobe,
     },
     {
         id: 3,
         title: "Badeværelse",
         href: "/galleri/badeværelse",
-        image: project3,
+        image: badeværelse,
     },
     {
         id: 4,
         title: "Tagkonstruktion",
         href: "/galleri/tagkonstruktion",
-        image: project4,
+        image: tag,
     },
     {
         id: 5,
         title: "Husrenovering",
         href: "/galleri/husrenovering",
-        image: project5,
+        image: husrenovering,
     },
     {
         id: 6,
         title: "Døre og vinduer",
         href: "/galleri/døre-og-vinduer",
-        image: project6,
+        image: døreOgVinduer,
     },
     {
         id: 7,
