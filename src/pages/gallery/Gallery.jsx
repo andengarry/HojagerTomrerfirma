@@ -1,4 +1,4 @@
-import ProjectGallery from "../components/projectGallery/ProjectGallery";
+import ProjectGallery from "../../components/projectGallery/ProjectGallery";
 
 function Gallery() {
   return (

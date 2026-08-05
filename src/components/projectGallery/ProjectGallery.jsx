@@ -29,6 +29,7 @@ function ProjectGallery() {
                             key={project.id}
                             title={project.title}
                             image={project.image}
+                            href={project.href}
                         />
                     ))}
                 </div>

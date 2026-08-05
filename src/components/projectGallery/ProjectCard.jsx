@@ -1,6 +1,9 @@
-function ProjectCard({ title, image }) {
+import { NavLink } from "react-router-dom";
+
+function ProjectCard({ title, image, href }) {
     return (
-        <article
+        <NavLink
+            to={href}
             className="
                 group
                 relative
@@ -49,7 +52,7 @@ function ProjectCard({ title, image }) {
                     {title}
                 </h3>
             </div>
-        </article>
+        </NavLink>
     );
 }
 
