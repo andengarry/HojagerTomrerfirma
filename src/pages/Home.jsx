@@ -16,7 +16,10 @@ function Home() {
         subtitle="Køkkenopsætning, døre, vinduer, tag og nybyg – udført med mange års erfaring og fokus på detaljen."
         image={hero}
       />
-      <AboutSection />
+      <AboutSection 
+        title="Om os"
+        text={<>Vi er grundlagt i 2022 af Nikolaj Højager. Vi lægger stor vægt på godt håndværk, høj kvalitet og en tæt dialog med vores kunder. Vores mål er altid at levere et resultat, der lever op til dine ønsker <br/> – til tiden og med fokus på de små detaljer.</>}
+      />
 
       <ContactForm />
 
