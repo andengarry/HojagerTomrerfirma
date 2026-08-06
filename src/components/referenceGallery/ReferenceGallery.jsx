@@ -1,6 +1,18 @@
-import referenceImages from "./referenceImages";
+const loadImages = (folder) => {
+  const images = import.meta.glob('/src/assets/**/*.{jpg,jpeg,png,webp,JPG,JPEG,AVIF}', {
+    eager: true,
+    import: 'default',
+  });
 
-function ReferenceGallery({title, text}) {
+  return Object.entries(images)
+        .filter(([path]) => path.includes(`/assets/${folder}/`))
+        .map(([, src]) => src);
+};
+
+function ReferenceGallery({title, text, folder}) {
+    // alle brugssteder skal opdateres til at indeholde en folder prop, som bruges til at hente billederne fra den rigtige mappe
+    const images = loadImages(folder);
+
     return (
         <section className="w-full bg-white py-20">
             <div className="mx-auto max-w-7xl px-6 lg:px-8">
@@ -15,7 +27,7 @@ function ReferenceGallery({title, text}) {
                 </header>
 
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4">
-                    {referenceImages.map((image, index) => (
+                    {images.map((image, index) => (
                         <div
                             key={index}
                             className="

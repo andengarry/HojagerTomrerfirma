@@ -1,5 +1,3 @@
-import facade from "../../assets/references/testReferencePicture.png";
-import ContentSection from "../../components/contentSection/ContentSection";
 import ReferenceGallery from "../../components/referenceGallery/ReferenceGallery";
 
 function HouseRenovation() {
@@ -9,6 +7,7 @@ function HouseRenovation() {
             <ReferenceGallery 
                 title="Husrenovering"
                 text="Se et udvalg af vores tidligere projekter."
+                folder="HouseRenovation"
             />
 
         </>
