@@ -29,8 +29,18 @@ const navConfig = [
             },
             {
                 type: "link",
-                label: "Nybygning og tilbygning",
-                href: "/services/nybygning-og-tilbygning",
+                label: "Terrasse",
+                href: "/services/terrasse",
+            },
+            {
+                type: "link",
+                label: "Garderobe",
+                href: "/services/garderobe",
+            },
+            {   
+                type: "link",
+                label: "Badeværelse",
+                href: "/services/badeværelse",
             },
         ],
     },

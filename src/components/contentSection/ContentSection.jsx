@@ -41,6 +41,7 @@ function ContentSection({
                         src={image}
                         alt={imageAlt}
                         className="
+                            aspect-square
                             h-full
                             w-full
                             rounded-2xl
