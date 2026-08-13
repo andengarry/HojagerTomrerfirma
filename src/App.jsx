@@ -22,6 +22,7 @@ import ServiceBathroom from "./pages/services/Bathroom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Navbar } from "./components/Navbar";
 import Footer from "./components/Footer";
+import PrivacyPolicyPage from "./pages/PrivacyPolicy";
 
 import { useState } from 'react'
 
@@ -54,6 +55,7 @@ function App() {
           <Route path="/galleri/tilbygning" element={<GalleryExtensionBuilding />} />
           <Route path="/om-os" element={<About />} />
           <Route path="/kontakt" element={<Contact />} />
+          <Route path="/privatlivspolitik&cookies" element={<PrivacyPolicyPage />} />
         </Routes>
 
         <Footer />
