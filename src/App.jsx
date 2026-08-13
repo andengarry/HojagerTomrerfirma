@@ -16,7 +16,9 @@ import Contact from "./pages/Contact";
 import ServiceKitchen from "./pages/services/Kitchen";
 import ServiceDoorsAndWindows from "./pages/services/DoorsAndWindows";
 import ServiceRoof from "./pages/services/Roof";
-import ServiceNewBuildAndRenovation from "./pages/services/NewBuildAndRenovation";
+import ServiceTerrace from "./pages/services/Terrace";
+import ServiceWardrobe from "./pages/services/Wardrobe";
+import ServiceBathroom from "./pages/services/Bathroom";
 import ScrollToTop from "./components/ScrollToTop";
 import { Navbar } from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -37,7 +39,9 @@ function App() {
           <Route path="/services/køkkenopsætning" element={<ServiceKitchen />} />
           <Route path="/services/døre-og-vinduer" element={<ServiceDoorsAndWindows />} />
           <Route path="/services/tagrenovering" element={<ServiceRoof />} />
-          <Route path="/services/nybygning-og-tilbygning" element={<ServiceNewBuildAndRenovation />} />
+          <Route path="/services/terrasse" element={<ServiceTerrace />} />
+          <Route path="/services/garderobe" element={<ServiceWardrobe />} />
+          <Route path="/services/badeværelse" element={<ServiceBathroom />} />
           <Route path="/galleri" element={<Gallery />} />
           <Route path="/galleri/køkken" element={<GalleryKitchen />} />
           <Route path="/galleri/facader" element={<GalleryFacades />} />

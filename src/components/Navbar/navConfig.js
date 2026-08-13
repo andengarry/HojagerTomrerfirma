@@ -29,8 +29,18 @@ const navConfig = [
             },
             {
                 type: "link",
-                label: "Nybygning og tilbygning",
-                href: "/services/nybygning-og-tilbygning",
+                label: "Terrasse",
+                href: "/services/terrasse",
+            },
+            {
+                type: "link",
+                label: "Garderobe",
+                href: "/services/garderobe",
+            },
+            {   
+                type: "link",
+                label: "Badeværelse",
+                href: "/services/badeværelse",
             },
         ],
     },
@@ -59,7 +69,7 @@ const navConfig = [
 
 export const companyInfo = {
     phone: "+45 22 88 14 29",
-    email: "nikolaj@hojagertoemrerfirma.dk",
+    email: "nikolaj@hoejagertoemrerfirma.dk",
 };
 
 

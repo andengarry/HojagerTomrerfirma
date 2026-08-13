@@ -210,7 +210,7 @@ function Footer() {
                   </p>
 
                   <p className="text-xs font-semibold">
-                    nikolaj@hojagertoemrerfirma.dk
+                    nikolaj@hoejagertoemrerfirma.dk
                   </p>
 
                 </div>

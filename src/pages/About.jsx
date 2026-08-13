@@ -1,8 +1,7 @@
 import { useState } from 'react'
-import facade from "../assets/references/testReferencePicture.png";
+import picture1 from "../assets/Personality/IMG_2923.JPEG";
 import ContentSection from "../components/contentSection/ContentSection";
 
-import Hero from "../components/Hero";
 import AboutSection from "../components/AboutSection";
 
 function About() {
@@ -18,7 +17,7 @@ function About() {
             <br/>
             I 2024 flyttede vi virksomheden til Holstebro, hvor vi i dag har base. Herfra kører vi ud til både private og erhvervskunder i området og løser alt fra mindre reparationer til større tømrerprojekter.
             </>}
-            image={facade}
+            image={picture1}
             imageAlt="Ny terrasse"
             reverse
         />
