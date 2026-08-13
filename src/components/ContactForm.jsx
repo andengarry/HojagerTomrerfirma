@@ -71,7 +71,7 @@ const handleSubmit = async (e) => {
 
           {/* Venstre side */}
 
-          <div className="bg-zinc-900 p-10 text-white lg:col-span-2">
+          <div className="bg-zinc-900 p-8 text-white lg:col-span-2">
 
             <h3 className="mb-8 text-2xl font-semibold">
               Kontaktoplysninger
@@ -79,12 +79,12 @@ const handleSubmit = async (e) => {
 
             <div className="space-y-8">
 
-              <div className="flex items-start">
+              <div className="flex items-center">
                 <div className="mt-1 rounded-full bg-amber-600 p-3">
                   <FaPhoneAlt />
                 </div>
 
-                <div className="flex-1 text-center -ml-10">
+                <div className="flex-1 text-center">
                   <p className="font-semibold">Telefon</p>
                   <a
                     href="tel:+4522881429"
@@ -95,12 +95,12 @@ const handleSubmit = async (e) => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-center">
                 <div className="mt-1 rounded-full bg-amber-600 p-3">
                   <FaEnvelope />
                 </div>
 
-                <div className="flex-1 text-center -ml-10">
+                <div className="flex-1 text-center">
                   <p className="font-semibold">Email</p>
                   <a
                     href="mailto:nikolaj@hojagertoemrerfirma.dk"
@@ -111,12 +111,12 @@ const handleSubmit = async (e) => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-center">
                 <div className="mt-1 rounded-full bg-amber-600 p-3">
                   <FaMapMarkerAlt />
                 </div>
 
-                <div className="flex-1 text-center -ml-10">
+                <div className="flex-1 text-center">
                   <p className="font-semibold">Adresse</p>
                   <p className="text-gray-300">
                     Særkærparken 61
@@ -126,12 +126,12 @@ const handleSubmit = async (e) => {
                 </div>
               </div>
 
-              <div className="flex items-start gap-4">
+              <div className="flex items-center">
                 <div className="mt-1 rounded-full bg-amber-600 p-3">
                   <FaClock />
                 </div>
 
-                <div className="flex-1 text-center -ml-10">
+                <div className="flex-1 text-center">
                   <p className="font-semibold">Åbningstider</p>
                   <p className="text-gray-300">
                     Man - Fre
