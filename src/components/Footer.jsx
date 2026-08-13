@@ -316,20 +316,20 @@ function Footer() {
 
           <div className="flex gap-6">
 
-            <a
-              href="#"
+            <NavLink
+              to="/privatlivspolitik&cookies"
               className="transition hover:text-white"
             >
               Privatlivspolitik
-            </a>
+            </NavLink>
 
 
-            <a
-              href="#"
+            <NavLink
+              to="/privatlivspolitik&cookies"
               className="transition hover:text-white"
             >
               Cookies
-            </a>
+            </NavLink>
 
 
             <span>
