@@ -69,7 +69,7 @@ const navConfig = [
 
 export const companyInfo = {
     phone: "+45 22 88 14 29",
-    email: "nikolaj@hojagertoemrerfirma.dk",
+    email: "nikolaj@hoejagertoemrerfirma.dk",
 };
 
 
