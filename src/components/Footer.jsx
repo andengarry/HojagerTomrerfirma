@@ -277,7 +277,7 @@ function Footer() {
 
                 <div
                   key={area}
-                  className="rounded-xl bg-zinc-800 px-4 py-3 text-center text-sm transition hover:bg-amber-600"
+                  className="rounded-xl bg-zinc-800 px-4 py-3 text-center text-sm"
                 >
 
                   {area}

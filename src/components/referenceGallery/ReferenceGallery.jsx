@@ -46,9 +46,6 @@ function ReferenceGallery({title, text, folder}) {
                                     aspect-square
                                     w-full
                                     object-cover
-                                    transition-transform
-                                    duration-500
-                                    group-hover:scale-105
                                 "
                             />
                         </div>
