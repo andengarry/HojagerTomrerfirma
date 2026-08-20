@@ -104,7 +104,7 @@ const handleSubmit = async (e) => {
                   <p className="font-semibold">Email</p>
                   <a
                     href="mailto:nikolaj@hojagertoemrerfirma.dk"
-                    className="text-gray-300 hover:text-white"
+                    className="block break-all text-gray-300 hover:text-white"
                   >
                     nikolaj@hojagertoemrerfirma.dk
                   </a>
@@ -156,12 +156,12 @@ const handleSubmit = async (e) => {
 
           {/* Højre side */}
 
-          <div className="p-10 lg:col-span-3">
+          <div className="min-w-0 p-6 sm:p-10 lg:col-span-3">
             <form
               onSubmit={handleSubmit}
               className="space-y-6"
             >
-              <div className="grid gap-6 md:grid-cols-2">
+              <div className="grid min-w-0 gap-6 md:grid-cols-2">
                 <Input
                   label="Navn"
                   name="name"
@@ -178,7 +178,7 @@ const handleSubmit = async (e) => {
                 />
               </div>
 
-              <div className="grid gap-6 md:grid-cols-2">
+              <div className="grid min-w-0 gap-6 md:grid-cols-2">
                 <Input
                   label="Email"
                   type="email"
