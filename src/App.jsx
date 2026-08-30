@@ -23,12 +23,16 @@ import ScrollToTop from "./components/ScrollToTop";
 import { Navbar } from "./components/Navbar";
 import Footer from "./components/Footer";
 import PrivacyPolicyPage from "./pages/PrivacyPolicy";
+import PageTracker from "./components/PageTracker";
+import CookieBanner from "./components/CookieBanner";
 
 import { useState } from 'react'
 
 function App() {
     return (
       <>
+
+        <PageTracker />
 
         <ScrollToTop />
 
@@ -59,6 +63,8 @@ function App() {
         </Routes>
 
         <Footer />
+
+        <CookieBanner />
 
       </>
 

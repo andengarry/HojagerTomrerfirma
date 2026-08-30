@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import {
   FaChevronDown,
   FaChevronUp,
@@ -17,7 +17,16 @@ import {
   FaCheck,
 } from "react-icons/fa";
 
-const COOKIE_CONSENT_KEY = "cookie-consent";
+import { 
+  hasAcceptedStatistics, 
+  acceptStatisticsCookies, 
+  withdrawStatisticsConsent, 
+} from "../lib/cookieConsent";
+
+import {
+  loadGoogleAnalytics,
+  denyGoogleAnalytics,
+} from "../lib/analytics";
 
 const policySections = [
   {
@@ -271,74 +280,86 @@ const policySections = [
 function PrivacyPolicyCookies() {
   const [openIndex, setOpenIndex] = useState(null);
 
-  const getStoredConsent = () => {
-    return localStorage.getItem(COOKIE_CONSENT_KEY) === "accepted";
-  };
-
   const [statisticsAccepted, setStatisticsAccepted] =
-    useState(getStoredConsent);
+    useState(hasAcceptedStatistics());
 
   const toggleSection = (index) => {
     setOpenIndex(openIndex === index ? null : index);
   };
 
+  useEffect(() => {
+    const handleConsentChanged = () => {
+      setStatisticsAccepted(hasAcceptedStatistics());
+    };
+
+    window.addEventListener(
+      "cookieConsentChanged",
+      handleConsentChanged
+    );
+
+    return () => {
+      window.removeEventListener(
+        "cookieConsentChanged",
+        handleConsentChanged
+      );
+    };
+  }, []);
+
   const withdrawConsent = () => {
     /*
-      Fjern dit eget gemte samtykke.
-
-      Hvis du bruger en anden struktur til cookie-samtykke,
-      skal COOKIE_CONSENT_KEY matche den nøgle, som dit
-      cookie-banner bruger.
-    */
-    localStorage.removeItem(COOKIE_CONSENT_KEY);
+     * 1. Gem "rejected" i localStorage.
+     */
+    withdrawStatisticsConsent();
 
     /*
-      Slet Google Analytics cookies.
+     * 2. Fortæl Google Analytics, at analytics storage
+     *    ikke længere er tilladt, og forsøg at slette
+     *    eksisterende GA-cookies.
+     */
+    denyGoogleAnalytics();
 
-      Cookie-navnene kan afhænge af din konkrete GA4-opsætning.
-      Disse er almindelige eksempler, men den endelige løsning
-      bør testes mod de cookies, din hjemmeside faktisk sætter.
-    */
-    document.cookie =
-      "_ga=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
-    document.cookie =
-      "_ga_=; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+    /*
+     * 3. Informer resten af appen om ændringen.
+     */
+    window.dispatchEvent(
+      new Event("cookieConsentChanged")
+    );
 
+    /*
+     * 4. Opdater UI.
+     */
     setStatisticsAccepted(false);
-
-    /*
-      Giv besked til din GA-integration om, at analytics storage
-      ikke længere er tilladt.
-
-      Denne del forudsætter, at Google Analytics / gtag er indlæst
-      på siden. Din endelige GA-opsætning bør desuden sikre, at
-      Google Analytics ikke starter igen ved næste sideindlæsning.
-    */
-    if (typeof window.gtag === "function") {
-      window.gtag("consent", "update", {
-        analytics_storage: "denied",
-      });
-    }
-
-    /*
-      Hvis du har et globalt cookie-banner, kan du eventuelt
-      åbne det igen her, så brugeren kan vælge på ny.
-    */
-    window.dispatchEvent(new Event("cookieConsentChanged"));
   };
 
   const acceptStatistics = () => {
-    localStorage.setItem(COOKIE_CONSENT_KEY, "accepted");
+    /*
+     * 1. Gem accept i localStorage.
+     */
+    acceptStatisticsCookies();
 
+    /*
+     * 2. Load Google Analytics.
+     *
+     * loadGoogleAnalytics() kan nu loade GA, fordi
+     * localStorage allerede indeholder "accepted".
+     */
+    loadGoogleAnalytics();
+
+    /*
+     * 3. Først efter GA er initialiseret sender vi
+     *    consent-eventet.
+     *
+     * GoogleAnalyticsTracker lytter på dette event
+     * og sender det første page_view.
+     */
+    window.dispatchEvent(
+      new Event("cookieConsentChanged")
+    );
+
+    /*
+     * 4. Opdater UI.
+     */
     setStatisticsAccepted(true);
-
-    if (typeof window.gtag === "function") {
-      window.gtag("consent", "update", {
-        analytics_storage: "granted",
-      });
-    }
-
-    window.dispatchEvent(new Event("cookieConsentChanged"));
   };
 
   return (
