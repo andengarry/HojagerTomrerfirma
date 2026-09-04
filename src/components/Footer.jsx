@@ -148,10 +148,6 @@ function Footer() {
 
           </div>
 
-
-
-
-
           {/* Kontakt */}
 
           <div>
@@ -189,12 +185,8 @@ function Footer() {
 
               </a>
 
-
-
-
-
               <a
-                href="nikolaj@hojagertoemrerfirma.dk"
+                href="mailto:nikolaj@hoejagertoemrerfirma.dk"
                 className="flex items-center rounded-2xl bg-zinc-800 p-5 transition hover:bg-zinc-700"
               >
 
