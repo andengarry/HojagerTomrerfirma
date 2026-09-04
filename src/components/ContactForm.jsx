@@ -103,10 +103,10 @@ const handleSubmit = async (e) => {
                 <div className="flex-1 text-center">
                   <p className="font-semibold">Email</p>
                   <a
-                    href="mailto:nikolaj@hojagertoemrerfirma.dk"
+                    href="mailto:nikolaj@hoejagertoemrerfirma.dk"
                     className="block break-all text-gray-300 hover:text-white"
                   >
-                    nikolaj@hojagertoemrerfirma.dk
+                    nikolaj@hoejagertoemrerfirma.dk
                   </a>
                 </div>
               </div>
